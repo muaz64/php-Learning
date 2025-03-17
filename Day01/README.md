@@ -114,6 +114,7 @@ Outputs: This is **bold**.
 
 **Q3:** Can we write HTML and PHP together?  
 **Ans:** Yes! PHP is designed to be embedded within HTML to produce dynamic content. Example:  
+
 ```php
 <!DOCTYPE html>
 <html>

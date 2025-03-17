@@ -7,3 +7,14 @@ print "Hello, World!";
 <!-- End PHP Code Blocks:
 You can mix PHP with HTML. End the block when switching to HTML.-->
 <p>This is HTML content.</p>
+
+<!-- Q3: Can we write HTML and PHP together?
+Ans: Yes! PHP is designed to be embedded within HTML to produce dynamic content. 
+Example: -->
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Welcome!</h1>
+  <?php echo "This is a PHP script."; ?>
+</body>
+</html>
