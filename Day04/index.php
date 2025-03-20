@@ -20,5 +20,20 @@ if ($age >= 18) {
 
 ?>
 
+<?php
 
+// if...elseif...else Statement:
+$grade = 85;
+
+if ($grade >= 90) {
+    echo "Excellent!";
+} elseif ($grade >= 80) {
+    echo "Good job!";
+} elseif ($grade >= 70) {
+    echo "Keep trying!";
+} else {
+    echo "Need more practice.";
+}
+
+?>
 
