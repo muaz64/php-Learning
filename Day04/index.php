@@ -17,6 +17,9 @@ if ($age >= 18) {
 } else {
     echo "You are not eligible to vote.";
 }
+//Ternary Operator (Shortcut for if...else)
+$age = 20;
+echo ($age >= 18) ? "Adult." : "Minor.";
 
 ?>
 
@@ -36,4 +39,26 @@ if ($grade >= 90) {
 }
 
 ?>
+
+<?php
+
+//switch Statement:
+$day = "Monday";
+
+switch ($day) {
+    case "Monday":
+        echo "Start of the week!";
+        break;
+    case "Friday":
+        echo "Almost the weekend!";
+        break;
+    case "Saturday":
+    case "Sunday":
+        echo "It's the weekend!";
+        break;
+    default:
+        echo "It's just a regular day.";
+}
+?>
+
 
