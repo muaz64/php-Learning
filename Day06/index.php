@@ -29,3 +29,14 @@ $bill = calculateBill(100, 2);
 echo "Total Bill: $bill<br>";
 ?>
 
+<?php
+// Default Parameters:
+function greeting($name = "Guest") {
+    echo "Hello, $name!<br>";
+}
+
+greeting("Muaz");
+greeting();
+?>
+
+
