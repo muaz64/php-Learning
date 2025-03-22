@@ -39,4 +39,37 @@ greeting("Muaz");
 greeting();
 ?>
 
+<?php
+// Global Scope:
+$name = "Global Name";
+
+function displayName() {
+    global $name;
+    echo $name;
+}
+
+displayName();
+
+// Local Scope:
+function showItem() {
+    $item = "Burger";
+    echo $item;
+}
+
+showItem();
+echo $item; // Error: Undefined variable
+
+// Static Scope:
+function countVisitors() {
+    static $count = 0;
+    $count++;
+    echo "Visitors: $count<br>";
+}
+
+countVisitors();
+countVisitors();
+countVisitors();
+?>
+
+
 
