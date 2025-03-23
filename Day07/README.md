@@ -65,12 +65,12 @@ Write a function `generateMultiplicationTable($number)` that generates a multipl
 
 ### 📖 **Q&A:**  
 **Q1:** What’s the difference between `return` and `echo`?  
-**A1:** `echo` outputs data directly, while `return` sends data back to the caller for further use.  
+**Ans:** `echo` outputs data directly, while `return` sends data back to the caller for further use.  
 
 ---
 
 **Q2:** Can functions be nested?  
-**A2:** Yes! But it’s not recommended unless absolutely necessary. Example:  
+**Ans:** Yes! But it’s not recommended unless absolutely necessary. Example:  
 ```php
 <?php
 function outerFunction() {
@@ -86,7 +86,7 @@ innerFunction(); // Now, this can be called.
 ---
 
 **Q3:** How do I debug my functions when they don’t work as expected?  
-**A3:**  
+**Ans:**  
 - Use `var_dump()` or `print_r()` to see what’s being returned.  
 - Comment out parts of the function to isolate the problem.  
 - Echo statements are helpful for checking what parts of the function are being executed.  
