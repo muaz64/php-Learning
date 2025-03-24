@@ -1,4 +1,4 @@
-<!-- get_process.php -->
+
 <?php
 $name = $_GET['name'];
 $age = $_GET['age'];
