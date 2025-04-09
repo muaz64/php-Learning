@@ -6,3 +6,13 @@ echo count($books); // Counts the number of elements in the array
 sort($books);       // Sorts the array in ascending order
 
 ?>
+<?php
+$bookDetails = [
+    "title" => "Harry Potter",
+    "author" => "J.K. Rowling",
+    "price" => 20
+];
+echo $bookDetails["author"];
+$bookDetails["price"] = 25; // Updating the price
+echo $bookDetails["price"]
+?>
