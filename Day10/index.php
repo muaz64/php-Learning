@@ -14,5 +14,10 @@ $bookDetails = [
 ];
 echo $bookDetails["author"];
 $bookDetails["price"] = 25; // Updating the price
-echo $bookDetails["price"]
+echo $bookDetails["price"];
+echo "<br>";
+foreach ($bookDetails as $key => $value) {
+    echo "$key: $value <br>";
+}
+
 ?>
