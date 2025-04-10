@@ -23,19 +23,31 @@ EOD;
 // 1. Finding String Length (strlen)
 $text = "Hello, PHP!";
 echo strlen($text); // Output: 11
-
+echo "<br>";
 // Counting Words (str_word_count)
 $text = "PHP is amazing!";
 echo str_word_count($text); // Output: 3
-
+echo "<br>";
 // 3. Reversing a String (strrev)
 $text = "Hello";
 echo strrev($text); // Output: olleH
-
+echo "<br>";
 // 4. Finding a Word (strpos)
 $text = "I love PHP programming!";
 $position = strpos($text, "PHP");
 echo $position; // Output: 7
+echo "<br>";
+// 5. Replacing Words (str_replace)
+$text = "I love PHP!";
+$newText = str_replace("PHP", "JavaScript", $text);
+echo $newText; // Output: I love JavaScript!
+echo "<br>";
+// /6. Converting to Upper/Lowercase (strtoupper, strtolower)
+$text = "Hello World!";
+echo strtoupper($text); // HELLO WORLD!
+echo "<br>";
+echo strtolower($text); // hello world!
+echo "<br>";
 
 
 ?>
