@@ -60,5 +60,17 @@ $sentence = "apple,banana,grape";
 $fruits = explode(",", $sentence);
 print_r($fruits);
 // Output: Array ( [0] => apple [1] => banana [2] => grape )
+echo "<br>";
+
+// 9. Joining an Array into a String (implode)
+$fruits = ["apple", "banana", "grape"];
+$text = implode(", ", $fruits);
+echo $text; // Output: apple, banana, grape
+echo "<br>";
+
+// 10. Removing Whitespaces (trim)
+$text = "  Hello, PHP!  ";
+echo trim($text); // Output: "Hello, PHP!"
+echo "<br>";
 
 ?>
