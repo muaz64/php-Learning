@@ -18,7 +18,17 @@ This won't interpret variables like $name.
 EOD;
 
 ?>
-<!--  -->
+<!-- Creating Strings in PHP: -->
 <?php
+// 1. Finding String Length (strlen)
+$text = "Hello, PHP!";
+echo strlen($text); // Output: 11
+
+// Counting Words (str_word_count)
+$text = "PHP is amazing!";
+echo str_word_count($text); // Output: 3
+
+
+
 
 ?>
