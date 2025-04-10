@@ -73,4 +73,15 @@ $text = "  Hello, PHP!  ";
 echo trim($text); // Output: "Hello, PHP!"
 echo "<br>";
 
+// 11. Formatting Strings (sprintf)
+$name = "John";
+$age = 25;
+echo sprintf("My name is %s and I am %d years old.", $name, $age);
+echo "<br>";
+
+// 12. Converting Special Characters (htmlspecialchars)
+$text = "<script>alert('Hacked!');</script>";
+echo htmlspecialchars($text);
+// Output: &lt;script&gt;alert('Hacked!');&lt;/script&gt;
+
 ?>
