@@ -28,7 +28,14 @@ echo strlen($text); // Output: 11
 $text = "PHP is amazing!";
 echo str_word_count($text); // Output: 3
 
+// 3. Reversing a String (strrev)
+$text = "Hello";
+echo strrev($text); // Output: olleH
 
+// 4. Finding a Word (strpos)
+$text = "I love PHP programming!";
+$position = strpos($text, "PHP");
+echo $position; // Output: 7
 
 
 ?>
