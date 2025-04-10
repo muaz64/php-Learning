@@ -42,6 +42,7 @@ $text = "I love PHP!";
 $newText = str_replace("PHP", "JavaScript", $text);
 echo $newText; // Output: I love JavaScript!
 echo "<br>";
+
 // /6. Converting to Upper/Lowercase (strtoupper, strtolower)
 $text = "Hello World!";
 echo strtoupper($text); // HELLO WORLD!
@@ -49,5 +50,15 @@ echo "<br>";
 echo strtolower($text); // hello world!
 echo "<br>";
 
+// 7. Extracting a Substring (substr)
+$text = "Hello, PHP!";
+echo substr($text, 0, 5); // Output: Hello
+echo "<br>";
+
+// 8. Splitting a String (explode)
+$sentence = "apple,banana,grape";
+$fruits = explode(",", $sentence);
+print_r($fruits);
+// Output: Array ( [0] => apple [1] => banana [2] => grape )
 
 ?>
