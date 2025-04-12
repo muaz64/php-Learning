@@ -1,3 +1,2 @@
-Hello, world!
-Welcome to PHP file handling!
-This line is added later!
+Overwritten content!
+New line

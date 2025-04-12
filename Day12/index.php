@@ -26,4 +26,18 @@ while (!feof($file)) {
 }
 
 fclose($file);
+
+// 5. file_get_contents() and file_put_contents()
+// Quick file read:
+$content = file_get_contents("example.txt");
+echo $content;
+
+// Quick file write (replaces all content):
+$content =file_put_contents("example.txt", "Overwritten content!");
+echo $content;
+
+// Quick append:
+$content =file_put_contents("example.txt", "\nNew line", FILE_APPEND);
+echo $content;
+
 ?>
