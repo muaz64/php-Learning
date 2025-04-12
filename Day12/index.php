@@ -15,4 +15,15 @@ $file = fopen("example.txt", "r");
 $content = fread($file, filesize("example.txt")); // read entire file
 fclose($file);
 echo $content;
+echo "<br>";
+
+// 4. Line-by-Line Reading (fgets, feof)
+$file = fopen("example.txt", "r");
+
+while (!feof($file)) {
+    $line = fgets($file);
+    echo $line . "<br>";
+}
+
+fclose($file);
 ?>
