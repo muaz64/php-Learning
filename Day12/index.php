@@ -9,4 +9,10 @@
 $file = fopen("example.txt", "a"); // "a" = append
 fwrite($file, "\nThis line is added later!");
 fclose($file);
+
+//  3. Reading a File (fread)
+$file = fopen("example.txt", "r");
+$content = fread($file, filesize("example.txt")); // read entire file
+fclose($file);
+echo $content;
 ?>
