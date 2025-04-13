@@ -1,6 +1,6 @@
-Awesome, Muaz! Let’s move on to **Day 13: Mini Project – Simple Form with Validation & File Upload** 🎉
+ # **Day 13: Mini Project – Simple Form with Validation & File Upload** 🎉
 
----
+
 
 # 🎯 **Goal**  
 We’ll build a form that:
