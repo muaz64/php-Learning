@@ -40,6 +40,11 @@ $entries = explode("\n\n", trim($data)); // Split into blocks
 
 echo "<table border='1' cellpadding='10'>";
 echo "<tr><th>Name</th><th>Email</th><th>Profile</th></tr>";
+echo "<style>
+    table { border-collapse: collapse; width: 80%; margin: 20px auto; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+    img { border-radius: 10px; }
+</style>";
 
 foreach ($entries as $entry) {
     $lines = explode("\n", $entry);
